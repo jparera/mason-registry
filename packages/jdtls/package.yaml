@@ -10,26 +10,26 @@ categories:
   - LSP
 
 source:
-  id: pkg:generic/eclipse/eclipse.jdt.ls@v1.39.0
+  id: pkg:generic/eclipse/eclipse.jdt.ls@v1.41.0
   download:
     - target: darwin_x64
       files:
-        jdtls.tar.gz: https://download.eclipse.org/jdtls/milestones/{{ version | strip_prefix "v" }}/jdt-language-server-{{ version | strip_prefix "v" }}-202408291433.tar.gz
+        jdtls.tar.gz: https://download.eclipse.org/jdtls/milestones/{{ version | strip_prefix "v" }}/jdt-language-server-{{ version | strip_prefix "v" }}-202410311350.tar.gz
         lombok.jar: https://projectlombok.org/downloads/lombok.jar
       config: config_mac/
     - target: darwin_arm64
       files:
-        jdtls.tar.gz: https://download.eclipse.org/jdtls/milestones/{{ version | strip_prefix "v" }}/jdt-language-server-{{ version | strip_prefix "v" }}-202408291433.tar.gz
+        jdtls.tar.gz: https://download.eclipse.org/jdtls/milestones/{{ version | strip_prefix "v" }}/jdt-language-server-{{ version | strip_prefix "v" }}-202410311350.tar.gz
         lombok.jar: https://projectlombok.org/downloads/lombok.jar
       config: config_mac_arm/
     - target: linux
       files:
-        jdtls.tar.gz: https://download.eclipse.org/jdtls/milestones/{{ version | strip_prefix "v" }}/jdt-language-server-{{ version | strip_prefix "v" }}-202408291433.tar.gz
+        jdtls.tar.gz: https://download.eclipse.org/jdtls/milestones/{{ version | strip_prefix "v" }}/jdt-language-server-{{ version | strip_prefix "v" }}-202410311350.tar.gz
         lombok.jar: https://projectlombok.org/downloads/lombok.jar
       config: config_linux/
     - target: win
       files:
-        jdtls.tar.gz: https://download.eclipse.org/jdtls/milestones/{{ version | strip_prefix "v" }}/jdt-language-server-{{ version | strip_prefix "v" }}-202408291433.tar.gz
+        jdtls.tar.gz: https://download.eclipse.org/jdtls/milestones/{{ version | strip_prefix "v" }}/jdt-language-server-{{ version | strip_prefix "v" }}-202410311350.tar.gz
         lombok.jar: https://projectlombok.org/downloads/lombok.jar
       config: config_win/
 
